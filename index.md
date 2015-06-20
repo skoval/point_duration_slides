@@ -1,4 +1,5 @@
 ---
+
 title       : Match Length in Tennis
 subtitle    : How Did a 2013 Rule Change on Time Violation Penalities Change the Pace of the Sport?
 author      : S. A. Kovalchik
@@ -9,13 +10,14 @@ hitheme     : tomorrow      #
 widgets     : bootstrap            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
----
+
+--- &twocol
 
 <!-- Limit image width and height -->
 <style type='text/css'>
 img {
-    max-height: 560px;
-    max-width: 964px;
+    max-height: '40%';
+    max-width: '60%';
 }
 </style>
 
@@ -27,17 +29,25 @@ $(function() {
 });
 </script>
 
-## 2013 Change in Time Violation Rules
+## Change in Time Violation Rules
 
 * Over the past decade, the duration of matches in tennis have been getting longer, and more frequent epic-length matches have become a strain for players and fans
-
-![Isner Mahut Match](http://i.telegraph.co.uk/multimedia/archive/01924/mahut-isner_1924292c.jpg)
 
 * In 2013, the Association of Tennis Professionals (ATP) made a policy change to try to make the pace of the sport faster
 
 * The policy change gave chairs the right to issue a fault to servers who take more than 20 seconds (at the Majors) between points--a restriction that has long been in place but rarely enforced
 
---- 
+*** =left
+
+![Isner Mahut Match](http://i.telegraph.co.uk/multimedia/archive/01924/mahut-isner_1924292c.jpg)
+
+*** =right
+
+<p style="color: grey;">
+This photo was taken at the end of the now notorious Isner-Mahut <a href="https://en.wikipedia.org/wiki/Isner%E2%80%93Mahut_match_at_the_2010_Wimbledon_Championships">marathon match</a> at the 2010 Wimbledon Championships, the longest match in tennis history that took place over 3 days and lasted a total of 11 hours and 5 minutes.
+</p>
+
+--- &twocol
 
 ## Impact of ATP Rule Change
 
@@ -47,11 +57,17 @@ $(function() {
 
 <hr>
 
+*** =left
+
 1. <h3>Did point lengths change as a consequence of the rule change? and how much did they change?</h3>
 
 2. <h3>Did the change differ by surface or tournament level?</h3>
 
 3. <h3>Were some players affected more than others?</h3>
+
+*** =right
+
+![Nadal arguing with chair Bernades](https://usatftw.files.wordpress.com/2015/05/ap_australian_open_tennis_46556971.jpg)
 
 --- &twocol
 
@@ -1703,7 +1719,7 @@ callbacks.shift()();
 
 *** =right
 
-* Although the majority of players, played faster in 2013, considerable variation in the magnitude of change was found
+* Although the majority of players played faster in 2013, considerable variation in the magnitude of change was found
 
 * Nadal sped up play by 5 seconds per point, but a number of other players quickened their play even more
 
